@@ -1,0 +1,29 @@
+---------------------------------------------------------------
+[ 2018-08-04T23:17:05+08:00 ] 0.0.0.0 GET /filmreviews/public/index.php/Admin/index/index.html
+[ info ] localhost/filmreviews/public/index.php/Admin/index/index.html [运行时间：0.044219s][吞吐率：22.61req/s] [内存消耗：1,561.21kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\filmreviews\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=164c7557b876db-023da7e8998a2f-47e1039-144000-164c7557b88622; CNZZDATA1263804910=479822438-1532348405-null%7C1532353901; pgv_pvi=4158702592; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532869581,1533046801,1533210264,1533302248; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1533380943',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.12 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->Index[ D:\phpStudy\WWW\filmreviews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\filmreviews\public/../application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
