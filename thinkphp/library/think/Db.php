@@ -134,7 +134,7 @@ class Db
 
     /**
      * DSN 解析
-     * 格式： mysql://username:passwd@localhost:3306/DbName?param1=val1&param2=val2#utf8
+     * 格式： mysql://username:passwd@39.106.134.4:3306/DbName?param1=val1&param2=val2#utf8
      * @access private
      * @param  string $dsnStr 数据库 DSN 字符串解析
      * @return array

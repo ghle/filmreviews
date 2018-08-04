@@ -181,7 +181,7 @@
             function admin_del(obj,id){
                 layer.confirm('确认要删除吗？',function(index){
                      //发异步删除数据
-                    var request='http://localhost{:\\think\\Request::instance()->root()}';
+                    var request='http://39.106.134.4{:\\think\\Request::instance()->root()}';
                     var controller='/admin/{:\\think\\Request::instance()->controller()}';
                     $.ajax({
                      url:request+controller+"/delete",

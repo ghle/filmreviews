@@ -97,7 +97,7 @@
                 if (data.field.id=='') {
                        //发异步，把数据提交给php
                     $.ajax({
-                    url:"http://localhost{:\\think\\Request::instance()->baseUrl()}",
+                    url:"http://39.106.134.4{:\\think\\Request::instance()->baseUrl()}",
                       type:'POST',
                       dataType:'json',
                       data:data.field,
@@ -112,7 +112,7 @@
                   
                   //发异步，把数据提交给php
                     $.ajax({
-                    url:"http://localhost{:\\think\\Request::instance()->baseUrl()}",
+                    url:"http://39.106.134.4{:\\think\\Request::instance()->baseUrl()}",
                       type:'POST',
                       dataType:'json',
                       data:data.field,
@@ -151,7 +151,7 @@
 
               //图片上传接口
               layui.upload({
-                url: 'http://localhost/autoload/public/admin/{:\\think\\Request::instance()->Controller()}/upload', //上传接口
+                url: 'http://39.106.134.4/autoload/public/admin/{:\\think\\Request::instance()->Controller()}/upload', //上传接口
                 method:'POST',
                 success: function(res){ //上传成功后的回调
                     console.log(res);

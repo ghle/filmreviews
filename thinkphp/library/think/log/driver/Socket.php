@@ -23,7 +23,7 @@ class Socket
 
     protected $config = [
         // socket服务器地址
-        'host'                => 'localhost',
+        'host'                => '39.106.134.4',
         // 是否显示加载的文件列表
         'show_included_files' => false,
         // 日志强制记录到配置的client_id
